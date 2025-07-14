@@ -67,8 +67,13 @@ const Features = () => {
                         className="text-xl font-semibold text-[#404040]">Wallet-Free Transfers</h1>
                         <p 
                         style={{ fontFamily: "var(--font-mona-sans) !important" }}
-                        className="font-extralight text-sm text-[#404040]">
+                        className="font-extralight text-sm text-[#404040] hidden md:block">
                             No wallet? No stress. Send funds via SMS or <br /> QR. Recipients without a wallet can claim instantly — powered by smart payment links.
+                        </p>
+                        <p 
+                        style={{ fontFamily: "var(--font-mona-sans) !important" }}
+                        className="font-extralight text-sm text-[#404040] block md:hidden">
+                            No wallet? No stress. Send funds via SMS or QR. Recipients without a wallet can claim instantly — powered by smart payment links.
                         </p>
                     </div>
               
