@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 const HowItWorks = () => {
 
     return (
-        <div id="howitworks" className="grid px-5 md:px-20 py-5 md:py-30 text-center">
+        <div id="howitworks" className="grid px-5 md:px-20 pt-5 md:pt-30 text-center">
             <h1
                 style={{ fontFamily: "var(--font-funnel-display) !important" }}
                 className="text-[#051912] font-bold text-3xl md:text-5xl mb-5">How PalmBloc Works</h1>
