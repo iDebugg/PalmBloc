@@ -59,7 +59,26 @@ const Features = () => {
                 </div>
 
                 
-                <div className="grid grid-rows-2 gap-4">
+                <div className="hidden md:grid grid-rows-2 gap-4">
+                <div className="flex-1 bg-gray-100 p-8 text-center items-center justify-items-center rounded-3xl h-full grid gap-3">
+                        <img src="/wallet.svg" alt="" />
+                        <h1 
+                        style={{ fontFamily: "var(--font-funnel-display) !important" }}
+                        className="text-xl font-semibold text-[#404040]">Wallet-Free Transfers</h1>
+                        <p 
+                        style={{ fontFamily: "var(--font-mona-sans) !important" }}
+                        className="font-extralight text-sm text-[#404040] hidden md:block">
+                            No wallet? No stress. Send funds via SMS or <br /> QR. Recipients without a wallet can claim instantly — powered by smart payment links.
+                        </p>
+                        <p 
+                        style={{ fontFamily: "var(--font-mona-sans) !important" }}
+                        className="font-extralight text-sm text-[#404040] block md:hidden">
+                            No wallet? No stress. Send funds via SMS or QR. Recipients without a wallet can claim instantly — powered by smart payment links.
+                        </p>
+                    </div>
+              
+                </div>
+                <div className="grid md:hidden">
                 <div className="flex-1 bg-gray-100 p-8 text-center items-center justify-items-center rounded-3xl h-full grid gap-3">
                         <img src="/wallet.svg" alt="" />
                         <h1 

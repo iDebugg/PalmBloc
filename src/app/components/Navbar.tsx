@@ -122,7 +122,7 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="sm:hidden bg-transparent grid gap-3">
+        <div className="sm:hidden bg-transparent grid gap-3 pt-3">
           <a
             href="#home"
             onClick={() => {

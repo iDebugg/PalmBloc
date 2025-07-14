@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 const UseCases = () => {
 
     return (
-        <div id="usecases" className="px-5 md:px-20 py-30 text-center">
+        <div id="usecases" className="px-5 md:px-20 pt-30 text-center">
             <h1 style={{ fontFamily: "var(--font-funnel-display) !important" }} className="text-[#051912] font-bold text-3xl md:text-5xl mb-7 text-left">Why PalmBloc?
             </h1>
 
